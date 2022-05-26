@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 1,
+            'wght' 700,
+            'GRAD' 200,
+            'opsz' 48
+        }
+    </style>
+    <script src="https://unpkg.com/vue@3"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <nav class="navbar">
+            <ul id="leftNav">
+                <span class="material-symbols-outlined">
+                cookie
+                </span>
+                <li><a>HOME</a></li>
+            </ul>
+            <ul id="rightNav">
+                <li><a>CATALOG</a></li>
+                <li><a>CART</a></li>
+            </ul>
+        </nav>
+        <div class="background">
+            <img src="assets/baking-bg.jpg" alt="">
+        </div>
+        <div id="title">
+            <img src="assets/sPark_left.png" alt="" id="sp_left">
+            <div>JOE&JULIA'S</div>
+            <img src="assets/spark_right.png" alt="" id="sp_right">
+        </div>
+        <div class="subtitle">(fictional) bakery</div>
+        <div class="panel">
+            <ul>
+                <li><h2>The best cakes for any occasion.</h2></li> 
+                <li>
+                    <p>
+                        Made with passion, with local and healthy ingredients. 
+                        Share it with everyone or keep it just for yourself!
+                    </p>
+                </li>
+                <li><button class="app_button">Place an order ➜</button></li>
+            </ul>
+        </div>
+        <div>
+            <img src="assets/muffins.jpg" alt="" class="bg_img">
+            <img src="assets/chocolate-cake.jpg" alt="" class="bg_img">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

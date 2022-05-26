@@ -1,0 +1,135 @@
+@media only screen and (min-device-width: 480px){}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.background > img {
+    object-fit: fill;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.navbar {
+    background-color: #3e4050;
+    font-weight: 500;
+    color: #e87584;
+    display: flex;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: 0;
+}
+
+.navbar > ul > li {
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+}
+
+#rightNav {
+    margin-left: auto;
+}
+
+.material-symbols-outlined {
+    font-size: 3rem;
+}
+
+#title {
+    display: flex;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+#title > div {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+#title > img {
+    display: flex;
+    margin-top: auto;
+    size: 1;
+    padding-top: 4rem;
+    margin-bottom: auto;
+}
+
+#sp_left {
+    margin-left: auto;
+    padding-right: 1rem;
+}
+#sp_right {
+    margin-right: auto;
+    padding-left: 1rem;
+}
+
+.subtitle {
+    display: flex;
+    margin: auto;
+    max-width: fit-content;
+    font-weight: 700;
+    font-size: 3vw;
+    color: black;
+    opacity: 0.8;
+}
+
+.panel {
+    display: flex;
+    margin-top: 4rem;
+    background-color: #3e4050;
+    color: #e87584;
+    padding-top: 1rem;
+    padding-bottom: 1rem;    
+    border-radius: 0.8rem;
+}
+
+.panel > ul {
+    margin-left: 2rem;
+    list-style-type: none;
+    padding: 1rem;
+    width: 50%;
+}
+
+.panel > ul > li {
+    display: flex;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.app_button {
+    background-color: #e87584;
+    color: white;
+    font-size: large;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 0;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+}
+
+.bg_img {
+    object-fit: scale-down;
+    max-width: 99vw;
+    width: auto;
+    height: auto;
+}
